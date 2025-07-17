@@ -85,11 +85,5 @@ It simulates a real-world production-grade **data engineering and ML workflow**,
 
 ---
 
-## Demo & Screenshots
-
-Due to credit exhaustion in our Azure account, we recorded screenshots and notebooks as part of the final review. The working pipeline can be viewed in:
-- **Azure DevOps Repository**
-- **Azure Notebooks & MLflow Tracking UI**
-- **Synapse Serverless SQL scripts**
 
 
