@@ -21,7 +21,7 @@ It simulates a real-world production-grade **data engineering and ML workflow**,
 **Size:** ~2 GB  
 **File Format:** CSV  
 
-### 🔍 Key Features:
+### Key Features:
 - `tpep_pickup_datetime`, `tpep_dropoff_datetime` – Trip timing  
 - `trip_distance` – Distance covered  
 - `fare_amount`, `tip_amount`, `total_amount` – Fare details  
@@ -31,9 +31,9 @@ It simulates a real-world production-grade **data engineering and ML workflow**,
 
 ---
 
-## 🧱 Architecture
+## Architecture
 
-### 📊 High-Level Components
+### High-Level Components
 
 1. **Bronze Layer (Raw Ingestion):**
    - CSV ingested into ADLS using Synapse Serverless SQL or Databricks.
@@ -55,16 +55,16 @@ It simulates a real-world production-grade **data engineering and ML workflow**,
 
 ---
 
-## 🧠 Machine Learning
+## Machine Learning
 
-### 🧪 Model: KMeans Clustering
+### Model: KMeans Clustering
 - **Goal:** Segment customers/trips into distinct groups
 - **Features Used:**
   - `trip_distance`
   - `fare_amount`
   - `passenger_count`
 
-### 🧮 Steps Involved:
+### Steps Involved:
 1. Feature Selection & Engineering  
 2. Vector Assembling & Standard Scaling  
 3. Train/Test Split  
@@ -75,9 +75,9 @@ It simulates a real-world production-grade **data engineering and ML workflow**,
 
 ---
 
-## 🔁 CI/CD Automation
+## CI/CD Automation
 
-### 🔧 DevOps Lifecycle
+### DevOps Lifecycle
 - Source code stored in **Azure DevOps Git Repos**
 - Jobs triggered using **Azure Pipelines**
 - Infrastructure defined using **ARM Templates**
@@ -85,7 +85,7 @@ It simulates a real-world production-grade **data engineering and ML workflow**,
 
 ---
 
-## 📷 Demo & Screenshots
+## Demo & Screenshots
 
 Due to credit exhaustion in our Azure account, we recorded screenshots and notebooks as part of the final review. The working pipeline can be viewed in:
 - **Azure DevOps Repository**
